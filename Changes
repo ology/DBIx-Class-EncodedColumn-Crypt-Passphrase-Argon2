@@ -1,4 +1,7 @@
 Revision history for DBIx-Class-EncodedColumn-Crypt-Passphrase-Argon2
 
 {{$NEXT}}
+    - Improve documentation.
+
+0.0100 2022-12-21 22:44:07
     - Adapt the DBIx::Class::EncodedColumn::Crypt::Passphrase::Bcrypt code.
