@@ -63,7 +63,7 @@ __END__;
       size                => 255,
       encode_column       => 1,
       encode_class        => 'Crypt::Passphrase::Argon2',
-      encode_args         => { cost => 6 },
+      encode_args         => { memory_cost => 256 },
       encode_check_method => 'check_password',
   });
 
