@@ -1,0 +1,4 @@
+Revision history for DBIx-Class-EncodedColumn-Crypt-Passphrase-Argon2
+
+{{$NEXT}}
+    - Adapt the DBIx::Class::EncodedColumn::Crypt::Passphrase::Bcrypt code.
