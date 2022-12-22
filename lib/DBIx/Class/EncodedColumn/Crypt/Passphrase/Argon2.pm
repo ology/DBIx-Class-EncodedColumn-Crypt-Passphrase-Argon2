@@ -81,12 +81,29 @@ Use L<Crypt::Passphrase::Argon2> for an encoded password column.
 
 =head1 ENCODE ARGUMENTS
 
-=head2 cost
+=head2 memory_cost
 
-A single or double digit non-negative integer representing the cost of the
-hash function.
+Default: C<256>
 
-Default: C<8>
+=head2 time_cost
+
+Default: C<3>
+
+=head2 parallelism
+
+Default: C<1>
+
+=head2 output_size
+
+Default: C<16>
+
+=head2 salt_size
+
+Default: C<16>
+
+=head2 subtype
+
+Default: C<argon2id>
 
 =head1 METHODS
 
