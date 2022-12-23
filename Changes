@@ -1,6 +1,9 @@
 Revision history for DBIx-Class-EncodedColumn-Crypt-Passphrase-Argon2
 
 {{$NEXT}}
+    - Require EncodedColumn too!
+
+0.0102 2022-12-22 18:59:24
     - Cleaned code slightly.
 
 0.0101 2022-12-21 23:03:21
