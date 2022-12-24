@@ -1,6 +1,8 @@
 Revision history for DBIx-Class-EncodedColumn-Crypt-Passphrase-Argon2
 
 {{$NEXT}}
+
+0.0106 2022-12-24 08:18:40
     - Include SQL::Translator as a dep.
 
 0.0105 2022-12-23 09:50:36
