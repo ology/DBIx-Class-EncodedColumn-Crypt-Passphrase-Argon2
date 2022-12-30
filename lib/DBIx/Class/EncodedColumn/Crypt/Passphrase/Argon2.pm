@@ -5,7 +5,7 @@ package DBIx::Class::EncodedColumn::Crypt::Passphrase::Argon2;
 use strict;
 use warnings;
 
-our $VERSION = '0.0106';
+our $VERSION = '0.0107';
 
 use Encode qw(encode_utf8);
 use Crypt::Passphrase::Argon2 ();
