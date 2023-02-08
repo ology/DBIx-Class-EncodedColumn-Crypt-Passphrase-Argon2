@@ -1,6 +1,7 @@
 Revision history for DBIx-Class-EncodedColumn-Crypt-Passphrase-Argon2
 
 {{$NEXT}}
+    - My modules were made obsolete. :\
 
 0.0107 2022-12-30 07:35:38
     - Require the latest Test::SQLite.

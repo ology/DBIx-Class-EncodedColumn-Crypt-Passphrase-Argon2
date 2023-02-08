@@ -1,11 +1,11 @@
 package DBIx::Class::EncodedColumn::Crypt::Passphrase::Argon2;
 
-# ABSTRACT: Crypt::Passphrase::Argon2 backend
+# ABSTRACT: Crypt::Passphrase::Argon2 backend - DEPRECATED
 
 use strict;
 use warnings;
 
-our $VERSION = '0.0107';
+our $VERSION = '0.0107_1';
 
 use Encode qw(encode_utf8);
 use Crypt::Passphrase::Argon2 ();
@@ -74,6 +74,8 @@ __END__;
     if $result && $result->check_password($pass);
 
 =head1 DESCRIPTION
+
+* DEPRECATED *
 
 Use L<Crypt::Passphrase::Argon2> for an encoded password column.
 
